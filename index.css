@@ -1,0 +1,144 @@
+/* body{
+    text-align: center;
+}
+.btn-container
+{
+    display: flex;
+    justify-content: center;
+}
+.btn
+{
+    width: 12.5rem;
+    height: 12.5rem;
+    border: .36rem solid black;
+    margin: .5rem;
+    margin-top: 1rem;
+    border-radius: 3.2rem;
+}
+.btn-1
+{
+    background-color: green;
+}
+.btn-2
+{
+    background-color: yellow;
+}
+.btn-3
+{
+    background-color: red;
+}
+.btn-4
+{
+    background-color: blue;
+}
+.flash
+{
+    background-color: white;
+}
+.userflash
+{
+    background-color: black;
+} */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: linear-gradient(135deg, #141d26, #1a2933); */
+    background-color: #141d26;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.game-title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #f44336;
+}
+
+.game-level {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #64b5f6;
+}
+.score
+{
+    font-size: 2.2rem;
+    color:white;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.btn {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+    border: 0.4rem solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    /* background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent); */
+    background-size: 20px 20px;
+    animation: animate-background 1s linear infinite;
+}
+
+
+
+.btn-1 {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-2 {
+    background-color: #FFEB3B;
+    color: #333;
+}
+
+.btn-3 {
+    background-color: #F44336;
+    color: white;
+}
+
+.btn-4 {
+    background-color: #2196F3;
+    color: white;
+}
+
+.flash {
+    background-color: white !important;
+}
+
+.userflash {
+    background-color: black !important;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    .btn {
+        width: 8rem;
+        height: 8rem;
+        font-size: 1.5rem;
+    }
+}
