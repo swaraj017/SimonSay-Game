@@ -42,23 +42,7 @@ function levelup() {
     console.log(gamesequence)
     gameflashbtn(randbtn);
 }
-// function checkans(idx) {
 
-//     if (usersequence[idx] === gamesequence[idx]) {
-//         if (usersequence.length == gamesequence.length) {
-//             setTimeout(levelup, 1000);
-//         }
-//     }
-//     else {
-//         h2.innerText = `Game Over! Press any key to Restart Game`
-//         document.querySelector("body").style.color="red";
-//         setTimeout(function() {
-//             document.querySelector("body").style.color="white";
-
-//         }, 100);
-//         resetGame();
-//     }
-// }
 function checkans(idx) {
     
     if (usersequence[idx] === gamesequence[idx]) {
