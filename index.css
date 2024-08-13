@@ -1,44 +1,4 @@
-/* body{
-    text-align: center;
-}
-.btn-container
-{
-    display: flex;
-    justify-content: center;
-}
-.btn
-{
-    width: 12.5rem;
-    height: 12.5rem;
-    border: .36rem solid black;
-    margin: .5rem;
-    margin-top: 1rem;
-    border-radius: 3.2rem;
-}
-.btn-1
-{
-    background-color: green;
-}
-.btn-2
-{
-    background-color: yellow;
-}
-.btn-3
-{
-    background-color: red;
-}
-.btn-4
-{
-    background-color: blue;
-}
-.flash
-{
-    background-color: white;
-}
-.userflash
-{
-    background-color: black;
-} */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background: linear-gradient(135deg, #141d26, #1a2933); */
